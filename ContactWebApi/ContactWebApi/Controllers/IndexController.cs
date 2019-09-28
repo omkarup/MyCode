@@ -11,8 +11,8 @@ namespace ContactWebApi.Controllers
         // GET: Index
         public ActionResult Index()
         {
-            masterEntities po = new masterEntities();
-            List<Contact> contacts = po.Contacts.ToList();
+            masterEntities entity = new masterEntities();
+            List<Contact> contacts = entity.Contacts.ToList();
             if (contacts.Count == 0)
             {
                 contacts.Add(new Contact());

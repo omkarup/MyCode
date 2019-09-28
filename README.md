@@ -1,4 +1,4 @@
-# MyCode
+# My Contacts App
 The Application created is a MVC Web Api application using entity framework and Ajax jquery
 User can perform folowing functionalities:
 Add contact
@@ -7,7 +7,7 @@ List contact
 Update contact
 
 Not Implemented:
-Data Validation
+Data Validation, this can be done using javascript of data annotations on the model.
 
 Database created in SQL Server, following is the script:
 CREATE TABLE [dbo].[Contacts](
